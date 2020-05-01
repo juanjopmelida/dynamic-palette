@@ -1,5 +1,4 @@
 body{
-    //Incluye aqui el mixin que acabas de crear (text-body)
 	@include text-body;
 	@include display-body;
 }
