@@ -4,6 +4,7 @@
   "description": "Master Front Lemoncode. Módulo-1: Layout - Ejercicio-1",
   "main": "index.js",
   "scripts": {
+    "start": "./dynamic-palette.html --open",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/juanjopmelida/dynamic-palette/issues"
   },
-  "homepage": "https://github.com/juanjopmelida/dynamic-palette#readme"
+  "homepage": "https://github.com/juanjopmelida/dynamic-palette#readme",
+  "dependencies": {
+    "compass": "^0.1.1"
+  }
 }

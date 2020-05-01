@@ -1,0 +1,26 @@
+.palette-container {
+	@include palette-container;
+}
+
+.container-1 {
+	@include palette;
+ 	@include palette-color($blue);
+}
+
+.container-2 {
+	@include palette;
+	@include palette-color($red);
+}
+
+.container-3 {
+	@include palette;
+ 	@include palette-color($green);
+}
+
+.box {
+	@include box
+}
+
+.color-box-text {
+	color: $almost-white;
+}

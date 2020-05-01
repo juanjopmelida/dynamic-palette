@@ -1,68 +1,42 @@
-@mixin text-body{ //NOTA: El uso del prefijo @mixin es de suma importancia para despues poderlo mandar llamar
+@mixin text-body{ 
 	font-family: 'Lato', sans-serif;
 	font-size: 17px;
-	color: $pure-white; //Aqui estamos haciendo uso de nuestra primer variable, la cual hace referencia al HEX de blanco
-	font-weight: $light; //Usamos otra variable, que en nuestro archivo de variables esta definido como 100
+	font-weight: $regular-weight; 
+	color: $pure-white; 
 }
 
-//Los parametros que tienen un :"valor" significa que son parametros opcionales y que ya tienen un valor definido por defecto
-//en este caso $background-top es opcional y si no se envia nada tomara el valor de center
-
-@mixin bg-covertint ($r-from, $g-from, $b-from, $r-to, $g-to, $b-to, $alpha, $imgurl, $background-top:"center", $background-left:"center", $background-attachment:"fixed") {
-	background: -webkit-linear-gradient(rgba($r-from, $g-from, $b-from, $alpha), rgba($r-to, $g-to, $b-to, $alpha)), url($imgurl) no-repeat unquote($background-top) unquote($background-left) unquote($background-attachment); 
-	background:    -moz-linear-gradient(rgba($r-from, $g-from, $b-from, $alpha), rgba($r-to, $g-to, $b-to, $alpha)), url($imgurl) no-repeat unquote($background-top) unquote($background-left) unquote($background-attachment); 
-	background:      -o-linear-gradient(rgba($r-from, $g-from, $b-from, $alpha), rgba($r-to, $g-to, $b-to, $alpha)), url($imgurl) no-repeat unquote($background-top) unquote($background-left) unquote($background-attachment); 
-	background:         linear-gradient(rgba($r-from, $g-from, $b-from, $alpha), rgba($r-to, $g-to, $b-to, $alpha)), url($imgurl) no-repeat unquote($background-top) unquote($background-left) unquote($background-attachment); 
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;  
+@mixin  display-body {
+	width: 100vw;
+	height: 100vh;
+	margin: auto;	
 }
 
-@mixin center-horizontal{
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
+@mixin palette-container {
+	height: 100%;
+	display:flex;
+	flex-flow: column nowrap;
+	justify-content: space-evenly;
 }
 
-@mixin center-vertical {
-	position: relative;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
+@mixin palette {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-evenly;
 }
 
-@mixin headers{
-	font-weight: $light;
-	font-size: 70px;
-	text-align: center;
-	margin-bottom: 10px;
-	width:50%;
-	@include center-horizontal;
-
+@mixin palette-color ($color) {
+	.base-color { background-color: $color; }
+	.darken-1 {	background-color: darken($color, 10%);	}
+	.darken-2 { background-color: darken($color, 20%); }
+	.darken-3 { background-color: darken($color, 30%); }
+	.darken-4 { background-color: darken($color, 40%); }
+	.lighten-1 { background-color: lighten($color, 10%); }
+	.lighten-2 { background-color: lighten($color, 20%); }
+	.lighten-3 { background-color: lighten($color, 30%); }
+	.lighten-4 { background-color: lighten($color, 40%); }
 }
 
-@mixin placeholder ($color,$font-weight){
-    color: $color;
-    font-weight: $font-weight;
-    
-	::-webkit-input-placeholder {
-		color: $color;
-		font-weight: $font-weight;
-	}
-
-	:-moz-placeholder { /* Firefox 18- */
-		color: $color;
-		font-weight: $font-weight;
-	}
-
-	::-moz-placeholder {  /* Firefox 19+ */
-		color: $color;
-		font-weight: $font-weight;
-	}
-
-	:-ms-input-placeholder {  
-		color: $color; 
-		font-weight: $font-weight;
-	}
+@mixin box {
+	border-radius: 5%;
+	padding: 1.5rem .5rem;	
 }

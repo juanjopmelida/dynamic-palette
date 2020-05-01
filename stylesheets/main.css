@@ -2,230 +2,157 @@
 body {
   font-family: 'Lato', sans-serif;
   font-size: 17px;
+  font-weight: 300;
   color: #FFF;
-  font-weight: 100;
-  width: 100%;
+  width: 100vw;
+  height: 100vh;
+  margin: auto;
+}
+
+/* line 1, ../sass/_palette.scss */
+.palette-container {
   height: 100%;
-  margin: 0;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-evenly;
 }
 
-/* line 1, ../sass/_landing.scss */
-.content {
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
+/* line 5, ../sass/_palette.scss */
+.container-1 {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+}
+/* line 28, ../sass/_mixins.scss */
+.container-1 .base-color {
+  background-color: #2a76e8;
+}
+/* line 29, ../sass/_mixins.scss */
+.container-1 .darken-1 {
+  background-color: #165ec9;
+}
+/* line 30, ../sass/_mixins.scss */
+.container-1 .darken-2 {
+  background-color: #11489b;
+}
+/* line 31, ../sass/_mixins.scss */
+.container-1 .darken-3 {
+  background-color: #0c336d;
+}
+/* line 32, ../sass/_mixins.scss */
+.container-1 .darken-4 {
+  background-color: #071d3f;
+}
+/* line 33, ../sass/_mixins.scss */
+.container-1 .lighten-1 {
+  background-color: #5894ed;
+}
+/* line 34, ../sass/_mixins.scss */
+.container-1 .lighten-2 {
+  background-color: #86b1f2;
+}
+/* line 35, ../sass/_mixins.scss */
+.container-1 .lighten-3 {
+  background-color: #b4cff7;
+}
+/* line 36, ../sass/_mixins.scss */
+.container-1 .lighten-4 {
+  background-color: #e2ecfc;
 }
 
-/* line 7, ../sass/_landing.scss */
-#section-1 {
-  background: -webkit-linear-gradient(rgba(0, 22, 86, 0.6), rgba(25, 117, 255, 0.6)), url("../assets/img/cover-picture.png") no-repeat center center fixed;
-  background: -moz-linear-gradient(rgba(0, 22, 86, 0.6), rgba(25, 117, 255, 0.6)), url("../assets/img/cover-picture.png") no-repeat center center fixed;
-  background: -o-linear-gradient(rgba(0, 22, 86, 0.6), rgba(25, 117, 255, 0.6)), url("../assets/img/cover-picture.png") no-repeat center center fixed;
-  background: linear-gradient(rgba(0, 22, 86, 0.6), rgba(25, 117, 255, 0.6)), url("../assets/img/cover-picture.png") no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  height: 100vh;
-  color: #FFF;
+/* line 10, ../sass/_palette.scss */
+.container-2 {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
 }
-/* line 12, ../sass/_landing.scss */
-#section-1 h1 {
-  font-weight: 100;
-  font-size: 70px;
-  text-align: center;
-  margin-bottom: 10px;
-  width: 50%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 30px;
+/* line 28, ../sass/_mixins.scss */
+.container-2 .base-color {
+  background-color: #d33131;
 }
-/* line 17, ../sass/_landing.scss */
-#section-1 img {
-  height: 30vh;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+/* line 29, ../sass/_mixins.scss */
+.container-2 .darken-1 {
+  background-color: #ac2525;
 }
-/* line 22, ../sass/_landing.scss */
-#section-1 .logo {
-  font-size: 50px;
-  width: 100%;
-  text-align: center;
-  color: #FFF;
+/* line 30, ../sass/_mixins.scss */
+.container-2 .darken-2 {
+  background-color: #821c1c;
 }
-/* line 28, ../sass/_landing.scss */
-#section-1 .logo .bold {
-  font-weight: 900;
+/* line 31, ../sass/_mixins.scss */
+.container-2 .darken-3 {
+  background-color: #581313;
 }
-/* line 32, ../sass/_landing.scss */
-#section-1 .logo .thin {
-  font-weight: 100;
+/* line 32, ../sass/_mixins.scss */
+.container-2 .darken-4 {
+  background-color: #2e0a0a;
 }
-/* line 37, ../sass/_landing.scss */
-#section-1 p {
-  margin-top: 20px;
-  font-weight: 300;
-  width: 60%;
-  text-align: center;
-  font-size: 20px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  font-weight: 100;
+/* line 33, ../sass/_mixins.scss */
+.container-2 .lighten-1 {
+  background-color: #dc5b5b;
+}
+/* line 34, ../sass/_mixins.scss */
+.container-2 .lighten-2 {
+  background-color: #e58585;
+}
+/* line 35, ../sass/_mixins.scss */
+.container-2 .lighten-3 {
+  background-color: #eeafaf;
+}
+/* line 36, ../sass/_mixins.scss */
+.container-2 .lighten-4 {
+  background-color: #f7d9d9;
 }
 
-/* line 49, ../sass/_landing.scss */
-#section-2 {
-  height: 100vh;
-  background-color: #FAFAFA;
-  color: #4D94FF;
-  color: #c7c7c7;
-  font-weight: 100;
+/* line 15, ../sass/_palette.scss */
+.container-3 {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
 }
-/* line 54, ../sass/_landing.scss */
-#section-2 .content {
-  position: relative;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+/* line 28, ../sass/_mixins.scss */
+.container-3 .base-color {
+  background-color: #50c450;
 }
-/* line 63, ../sass/_landing.scss */
-#section-2 h1 {
-  font-weight: 100;
-  font-size: 70px;
-  text-align: center;
-  margin-bottom: 10px;
-  width: 50%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 0;
-  margin-bottom: 40px;
-  font-weight: 300;
+/* line 29, ../sass/_mixins.scss */
+.container-3 .darken-1 {
+  background-color: #39a839;
 }
-/* line 72, ../sass/_landing.scss */
-#section-2 form .form-element {
-  display: block;
+/* line 30, ../sass/_mixins.scss */
+.container-3 .darken-2 {
+  background-color: #2c822c;
 }
-/* line 74, ../sass/_landing.scss */
-#section-2 form .form-element input[type=text] {
-  border-style: none;
-  background: none;
-  outline: none;
-  border-bottom: solid 2px #c7c7c7;
-  font-size: 50px;
-  font-weight: 100;
-  font-family: 'Lato', sans-serif;
-  width: 60%;
-  margin-left: 20%;
-  text-align: center;
-  margin-top: 15px;
-  margin-bottom: 30px;
-  color: #4D94FF;
-  transition: all 0.3s ease 0s;
-  padding-bottom: 20px;
+/* line 31, ../sass/_mixins.scss */
+.container-3 .darken-3 {
+  background-color: #1f5c1f;
 }
-/* line 91, ../sass/_landing.scss */
-#section-2 form .form-element input[type=text]:focus {
-  border-bottom: solid 2px #4D94FF;
+/* line 32, ../sass/_mixins.scss */
+.container-3 .darken-4 {
+  background-color: #123612;
 }
-/* line 95, ../sass/_landing.scss */
-#section-2 form .form-element button {
-  font-size: 50px;
-  font-weight: 100;
-  font-family: 'Lato', sans-serif;
-  background: #4D94FF;
-  border: 1px solid #4D94FF;
-  color: #FFF;
-  width: 60%;
-  outline: none;
-  margin-left: 20%;
-  margin-top: 30px;
-  margin-bottom: 30px;
-  transition: all 0.3s ease 0s;
-  padding: 20px 20px 20px 20px;
+/* line 33, ../sass/_mixins.scss */
+.container-3 .lighten-1 {
+  background-color: #76d176;
 }
-/* line 110, ../sass/_landing.scss */
-#section-2 form .form-element button:hover {
-  background: none;
-  color: #4D94FF;
-  border: 1px solid #4D94FF;
+/* line 34, ../sass/_mixins.scss */
+.container-3 .lighten-2 {
+  background-color: #9cde9c;
 }
-/* line 49, ../sass/_mixins.scss */
-#section-2 ::-webkit-input-placeholder {
-  color: #c7c7c7;
-  font-weight: 100;
+/* line 35, ../sass/_mixins.scss */
+.container-3 .lighten-3 {
+  background-color: #c2ebc2;
 }
-/* line 54, ../sass/_mixins.scss */
-#section-2 :-moz-placeholder {
-  /* Firefox 18- */
-  color: #c7c7c7;
-  font-weight: 100;
-}
-/* line 59, ../sass/_mixins.scss */
-#section-2 ::-moz-placeholder {
-  /* Firefox 19+ */
-  color: #c7c7c7;
-  font-weight: 100;
-}
-/* line 64, ../sass/_mixins.scss */
-#section-2 :-ms-input-placeholder {
-  color: #c7c7c7;
-  font-weight: 100;
+/* line 36, ../sass/_mixins.scss */
+.container-3 .lighten-4 {
+  background-color: #e9f7e9;
 }
 
-/* line 124, ../sass/_landing.scss */
-#section-3 {
-  background-color: #4D94FF;
-  height: 100vh;
+/* line 20, ../sass/_palette.scss */
+.box {
+  border-radius: 5%;
+  padding: 1.5rem .5rem;
 }
-/* line 132, ../sass/_landing.scss */
-#section-3 h1 {
-  font-weight: 100;
-  font-size: 70px;
-  text-align: center;
-  margin-bottom: 10px;
-  width: 50%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  color: #FFF;
-  margin-top: 0;
-}
-/* line 140, ../sass/_landing.scss */
-#section-3 .pricing-table {
-  width: 100%;
-}
-/* line 143, ../sass/_landing.scss */
-#section-3 .pricing-table .price {
+
+/* line 24, ../sass/_palette.scss */
+.color-box-text {
   color: #FAFAFA;
-  text-align: center;
-  font-size: 30px;
-  width: 30%;
-  display: inline-block;
-  padding: 20px;
-}
-/* line 151, ../sass/_landing.scss */
-#section-3 .pricing-table .price img {
-  width: 15%;
-}
-/* line 155, ../sass/_landing.scss */
-#section-3 .pricing-table .price h2 {
-  font-weight: 300;
-}
-/* line 159, ../sass/_landing.scss */
-#section-3 .pricing-table .price .description {
-  font-size: 2vh;
-}
-/* line 163, ../sass/_landing.scss */
-#section-3 .pricing-table .price .money {
-  font-weight: 700;
-  font-size: 50px;
-}
-/* line 168, ../sass/_landing.scss */
-#section-3 .pricing-table .price .price:nth-first-child {
-  border-right: solid 1px #FFF;
-  margin-left: 18%;
 }
