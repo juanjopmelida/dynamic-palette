@@ -4,17 +4,17 @@
 
 .container-1 {
 	@include palette;
- 	@include palette-color($blue);
+ 	@include palette-color($color-1);
 }
 
 .container-2 {
 	@include palette;
-	@include palette-color($red);
+	@include palette-color($color-2);
 }
 
 .container-3 {
 	@include palette;
- 	@include palette-color($green);
+ 	@include palette-color($color-3);
 }
 
 .box {

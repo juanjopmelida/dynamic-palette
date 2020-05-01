@@ -25,39 +25,39 @@ body {
 }
 /* line 28, ../sass/_mixins.scss */
 .container-1 .base-color {
-  background-color: #2a76e8;
+  background-color: #f6d743;
 }
 /* line 29, ../sass/_mixins.scss */
 .container-1 .darken-1 {
-  background-color: #165ec9;
+  background-color: #f4cd12;
 }
 /* line 30, ../sass/_mixins.scss */
 .container-1 .darken-2 {
-  background-color: #11489b;
+  background-color: #c9a80a;
 }
 /* line 31, ../sass/_mixins.scss */
 .container-1 .darken-3 {
-  background-color: #0c336d;
+  background-color: #998007;
 }
 /* line 32, ../sass/_mixins.scss */
 .container-1 .darken-4 {
-  background-color: #071d3f;
+  background-color: #685705;
 }
 /* line 33, ../sass/_mixins.scss */
 .container-1 .lighten-1 {
-  background-color: #5894ed;
+  background-color: #f8e174;
 }
 /* line 34, ../sass/_mixins.scss */
 .container-1 .lighten-2 {
-  background-color: #86b1f2;
+  background-color: #fbeca4;
 }
 /* line 35, ../sass/_mixins.scss */
 .container-1 .lighten-3 {
-  background-color: #b4cff7;
+  background-color: #fdf6d5;
 }
 /* line 36, ../sass/_mixins.scss */
 .container-1 .lighten-4 {
-  background-color: #e2ecfc;
+  background-color: white;
 }
 
 /* line 10, ../sass/_palette.scss */
@@ -68,39 +68,39 @@ body {
 }
 /* line 28, ../sass/_mixins.scss */
 .container-2 .base-color {
-  background-color: #d33131;
+  background-color: #649d66;
 }
 /* line 29, ../sass/_mixins.scss */
 .container-2 .darken-1 {
-  background-color: #ac2525;
+  background-color: #507e51;
 }
 /* line 30, ../sass/_mixins.scss */
 .container-2 .darken-2 {
-  background-color: #821c1c;
+  background-color: #3c5f3d;
 }
 /* line 31, ../sass/_mixins.scss */
 .container-2 .darken-3 {
-  background-color: #581313;
+  background-color: #284029;
 }
 /* line 32, ../sass/_mixins.scss */
 .container-2 .darken-4 {
-  background-color: #2e0a0a;
+  background-color: #152015;
 }
 /* line 33, ../sass/_mixins.scss */
 .container-2 .lighten-1 {
-  background-color: #dc5b5b;
+  background-color: #83b185;
 }
 /* line 34, ../sass/_mixins.scss */
 .container-2 .lighten-2 {
-  background-color: #e58585;
+  background-color: #a2c5a4;
 }
 /* line 35, ../sass/_mixins.scss */
 .container-2 .lighten-3 {
-  background-color: #eeafaf;
+  background-color: #c2d8c3;
 }
 /* line 36, ../sass/_mixins.scss */
 .container-2 .lighten-4 {
-  background-color: #f7d9d9;
+  background-color: #e1ece1;
 }
 
 /* line 15, ../sass/_palette.scss */
@@ -111,45 +111,45 @@ body {
 }
 /* line 28, ../sass/_mixins.scss */
 .container-3 .base-color {
-  background-color: #50c450;
+  background-color: #1f4068;
 }
 /* line 29, ../sass/_mixins.scss */
 .container-3 .darken-1 {
-  background-color: #39a839;
+  background-color: #132841;
 }
 /* line 30, ../sass/_mixins.scss */
 .container-3 .darken-2 {
-  background-color: #2c822c;
+  background-color: #081019;
 }
 /* line 31, ../sass/_mixins.scss */
 .container-3 .darken-3 {
-  background-color: #1f5c1f;
+  background-color: black;
 }
 /* line 32, ../sass/_mixins.scss */
 .container-3 .darken-4 {
-  background-color: #123612;
+  background-color: black;
 }
 /* line 33, ../sass/_mixins.scss */
 .container-3 .lighten-1 {
-  background-color: #76d176;
+  background-color: #2b588f;
 }
 /* line 34, ../sass/_mixins.scss */
 .container-3 .lighten-2 {
-  background-color: #9cde9c;
+  background-color: #3670b7;
 }
 /* line 35, ../sass/_mixins.scss */
 .container-3 .lighten-3 {
-  background-color: #c2ebc2;
+  background-color: #548acc;
 }
 /* line 36, ../sass/_mixins.scss */
 .container-3 .lighten-4 {
-  background-color: #e9f7e9;
+  background-color: #7ba5d8;
 }
 
 /* line 20, ../sass/_palette.scss */
 .box {
   border-radius: 5%;
-  padding: 1.5rem .5rem;
+  padding: 6.5rem 3.5rem;
 }
 
 /* line 24, ../sass/_palette.scss */
